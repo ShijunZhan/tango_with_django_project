@@ -139,3 +139,10 @@ MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
 LOGIN_URL = 'rango:login'
+
+#Browser-length sessions
+#SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+#Persistent sessions
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+# SESSION_COOKIE_AGE = 12000
